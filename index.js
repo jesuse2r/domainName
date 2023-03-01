@@ -1,23 +1,23 @@
-let pronoun = ['the','our'];
-  let adj = ['great', 'big' ];
-  let noun = ['jogger','racoon'];
-  
-  for (let value of pronoun) {
-    let element = value;
-    
-    for (let anidado of adj ){
-        let unity= element + anidado;
-        for (let cost of noun ){
-        let final= unity +cost;
-        console.log(final + ".com")
-        console.log(final + ".net")
-        console.log(final + ".us")
-        console.log(final + ".io")    
+let pronoun = ['the', 'our'];
+let adjetive = ['great', 'big'];
+let adverb = ['jogger', 'racoon'];
+let extension = ['.net', '.com', '.uni', '.io']
+for (let value of pronoun) {
+
+
+  for (let enlace of adjetive) {
+
+    for (let final of adverb) {
+      
+
+      for (let domain of extension) {
+        console.log(value + enlace + final + domain);
+      }
      
-            
 
 
-        }
+
+
     }
   }
-
+}
